@@ -49,3 +49,31 @@ switch (num) {
 		console.log('does not work');
 		break;
 }
+
+// Логические операторы
+// $$ - логическое и 
+// || - логическое или 
+// ! - логическое не
+/* const humburger = 5;
+const fries = 0;
+
+if (humburger && fries) {
+	console.log('я сыт');
+} else {
+	console.log('я голоден')
+}
+console.log((humburger && fries)); // выражение обернули в скобки чтобы получить в консоль результат работы оператора И */
+
+const humburger = 3;
+const fries = 3;
+const cola = 0;
+const nuggets = 2;
+
+if (humburger === 3 && cola === 2 || fries === 3 && nuggets) {
+	console.log('все довольны');
+} else {
+	console.log('мы уходим')
+}
+
+
+
